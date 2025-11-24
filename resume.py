@@ -41,7 +41,7 @@ def calculate_match(resume_skills, job_skills):
     return round(score, 2)
 
 
-st.title("📄 AI Resume Skill Matcher")
+st.title("AI Resume Skill Matcher")
 st.write("Upload your resume and job description to see the match score.")
 
 resume_file = st.file_uploader("Upload Resume (PDF)", type=['pdf'])
