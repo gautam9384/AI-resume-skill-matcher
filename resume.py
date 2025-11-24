@@ -57,7 +57,7 @@ if resume_file and job_desc:
 
     score = calculate_match(resume_skills, job_skills)
 
-    st.subheader("📊 Results")
+    st.subheader("Results")
     st.write("**Extracted Resume Skills:**", resume_skills)
     st.write("**Extracted Job Skills:**", job_skills)
-    st.write(f"✅ **Match Score:** {score} %")
+    st.write(f"**Match Score:** {score} %")
